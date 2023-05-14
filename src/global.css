@@ -1,4 +1,12 @@
 /**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
  * WHAT IS THIS FILE?
  *
  * Globally applied styles. No matter which components are in the page or matching route,
@@ -13,7 +21,7 @@
  * the styles in here will be applied to the Document, without any sort of CSS scoping.
  *
  */
-html {
+/* html {
   -webkit-text-size-adjust: 100%;
   -moz-tab-size: 4;
   -o-tab-size: 4;
@@ -26,4 +34,4 @@ html {
 body {
   padding: 0;
   line-height: inherit;
-}
+} */
